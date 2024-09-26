@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>נקיון</title>
+</head>
+
+<body>
+
+    <style>
+        body {
+            /* background-image: url('https://img.freepik.com/premium-vector/vector-cartoon-style-illustration-kitchen-room-dining-room-with-dining-wooden-table-fridge-ove_134830-1714.jpg');
+            background-size: 95%; */
+            /* background-image: url('https://img.freepik.com/premium-vector/cozy-colored-kitchen-interior-with-fridge-kitchen-stove-cupboard-dishes_273525-352.jpg'); */
+            background-image: url('https://cdna.artstation.com/p/assets/images/images/022/768/148/large/michael-shapoval-bathroom-beauty-render.jpg?1576617402');
+            /* background-image: url('https://preview.free3d.com/img/2019/11/2279664393614525527/mou4j9gm.jpg'); */
+            direction: rtl;
+            background-size: 82%;
+            background-repeat: no-repeat;
+            /* background-color: rgba(19, 190, 156, 0.466); */
+            background-color: rgba(227, 206, 15, 0.693);
+        }
+
+
+        .tmuna {
+            margin-left: 0%;
+            padding-right: 8%;
+            margin-bottom: 0%;
+            margin-top: 8%;
+        }
+
+        #p1 {
+            display: block;
+            margin-right: 50%;
+            margin-left: 120%;
+            margin-top: -5%;
+            margin-bottom: 0%;
+            /* border:2.5px solid #ffffff; */
+        }
+
+        .secondary {
+            display: block;
+            margin-right: 50%;
+            margin-left: 50%;
+            margin-top: 12%;
+        }
+
+        div.txt {
+            color: rgb(255, 174, 0);
+            font-size: 50px;
+            /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 0%;
+        }
+
+        .main-containerr {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 24%;
+            margin-top: 0%;
+            margin-left: 100%;
+            margin: -110px;
+        }
+
+
+        .main-containerr .box-1 {
+            flex: 1;
+            margin: -25px;
+            margin-left: 10px;
+            margin-top: 0%;
+
+        }
+
+        .main-containerr .box-2 {
+            flex: 1;
+        }
+
+        .main-containerr .box-3 {
+            flex: 1;
+        }
+
+        .main-containerr .box-4 {
+            flex: 1;
+        }
+
+        .main-containerr .box-5 {
+            flex: 1;
+        }
+
+        .main-containerr .box-6 {
+            flex: 1;
+        }
+
+        .main-containerr .box-7 {
+            flex: 1;
+            visibility: hidden
+        }
+
+
+        .cont {
+            display: flex;
+            margin-top: -7%;
+        }
+
+        .cont .box-1 {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .cont .box-2 {
+            flex: 1;
+        }
+
+        .cont .box-3 {
+            flex: 1;
+        }
+
+
+
+        .levels {
+            display: flex;
+            margin-right: 50%;
+        }
+
+        .levels .box-1 {
+            flex: 1;
+        }
+
+        .levels .box-2 {
+            flex: 1;
+        }
+
+        .levels .box-3 {
+            flex: 1;
+        }
+
+        .levels .box-4 {
+            flex: 1;
+        }
+
+
+        .bb {
+            margin-top: -50%;
+            margin-left: 50%;
+            margin-bottom: 0%;
+            border-color: #ffffff;
+            border-radius: 40%;
+            padding: 4%;
+            font-size: 35px;
+            background-color: rgb(143, 253, 64);
+            color: #858484;
+        }
+
+
+        div.txtb {
+            text-align: center;
+            color: rgb(211, 62, 62);
+            Border: Solid rgb(255, 234, 234) 5px;
+            Border-radius: 1000px;
+            margin: 0%;
+        }
+
+        button {
+            text-align: center;
+        }
+
+
+        .play {
+            /* box-shadow:inset 0px 4px 0px -2px #fcdccc; */
+            background: linear-gradient(to bottom, rgb(237, 248, 89) 5%, rgb(253, 170, 170) 100%);
+            background-color: rgb(216, 57, 251);
+            border-radius: 9px;
+            border: 2.5px solid #fae48c;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            color: #ae0303;
+            font-family: Arial;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 17px 16px;
+            text-decoration: none;
+            margin-right: 90px;
+            margin-left: 15%;
+            margin-top: 3%;
+        }
+
+        .play:hover {
+            background: linear-gradient(to bottom, rgb(179, 249, 130) 5%, #4dfb6a 100%);
+            background-color: #b7bcbe;
+            color: #e8160f;
+        }
+
+        .play:active {
+            position: relative;
+            top: 5px;
+        }
+
+        .pl {
+            text-align: center;
+            margin-right: 0%;
+            margin-left: 82%;
+            margin-top: 0%;
+            color: #ffffff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+        .yy {
+            background-color: rgba(227, 15, 82, 0);
+            color: rgba(227, 15, 82, 0);
+            margin-bottom: -50;
+        }
+    </style>
+
+
+    <div class="yy" onmouseover="sof()">
+        <p>exit<br>exit<br>exit<br>exit</p>
+    </div>
+
+    <div class="cont">
+
+        <div class="txt">
+            <p style="position: absolute; top: 15px; left: 28%"><b>קלחו את הקואלה</b></p>
+        </div>
+
+        <!-- קישורים ללוחות משחק אחרים -->
+
+        <div class="box-1">
+
+            <!-- <input type="button" class="bb" onclick="show_prompt()" value="חידה"> -->
+            <div class="tmuna">
+                <a href="לוח_אוכל.html">
+                    <img src="תמונות/eat1.gif" alt="Cinque Terre" width="220" height="200"/>
+                </a>
+            </div>
+
+            <div class="tmuna">
+                <a href="לוח_משחק.html">
+                    <img src="תמונות/run2.webp" alt="Cinque Terre" width="220" height="200"/>
+                </a>
+            </div>
+
+            <div class="tmuna">
+                <a href="לוח_נקיון.html">
+                    <img src="תמונות/clean3.gif" alt="Cinque Terre" width="220" height="200"/>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div id="image-container">
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+            <img id="p1" src="תמונות/צילום מסך 2023-07-19 192824.png" alt="Cinque Terre" width="280" height="280">
+
+            <br><br><br><br><br><br><br>
+
+            <div class="box-2">
+
+
+                <div class="main-containerr">
+
+                    <div class="box-1">
+                        <img id="secondary1"
+                            src="https://creazilla-store.fra1.digitaloceanspaces.com/emojis/55057/sponge-emoji-clipart-md.png"
+                            alt="Cinque Terre" width="140" height="150" onmouseover="big1()">
+                    </div>
+
+                    <div class="box-2">
+                        <img id="secondary2"
+                            src="https://ugokawaii.com/wp-content/uploads/2023/01/shower-1-1024x1024.gif"
+                            alt="Cinque Terre" width="150" height="160" onclick="big2()">
+                    </div>
+
+                    <div class="box-3">
+                        <img id="secondary3"
+                            src="https://media1.giphy.com/media/kf3EbAkiPU71FhTO2w/giphy.gif?cid=6c09b95206rshtjio08qfo7jmbgg4816n0kp2u7fhqxrxwmk&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                            alt="Cinque Terre" width="150" height="160" onclick="big3()">
+                    </div>
+
+                    <div class="box-4">
+                        <img id="secondary4"
+                            src="https://transcode-v2.app.engoo.com/image/fetch/f_auto,c_limit,h_256,dpr_3/https://assets.app.engoo.com/images/7eUXhEe99dgej9BvUBSJlDLvkOflmmpswY8reg8tui8.gif"
+                            alt="Cinque Terre" width="180" height="190" onmouseover="big4()">
+                    </div>
+
+                    <div class="box-5">
+                        <img id="secondary5" src="https://media1.giphy.com/media/iJQ6JpbMLEY0oWzyhw/200w.gif"
+                            alt="Cinque Terre" width="150" height="160" onclick="big5()">
+                    </div>
+
+                    <div class="box-6">
+                        <img id="secondary6"
+                            src="https://media1.giphy.com/media/DcuW4nzWlcHOsNJqc3/giphy.gif?cid=6c09b9529ab5dr7zbzmkbgfc12mw8v5atksjd7x59dpvvz21&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                            alt="Cinque Terre" width="150" height="160" onclick="remove()">
+                    </div>
+
+                    <div class="box-7">
+                        <img id="secondary7"
+                            src="https://media1.giphy.com/media/DcuW4nzWlcHOsNJqc3/giphy.gif?cid=6c09b9529ab5dr7zbzmkbgfc12mw8v5atksjd7x59dpvvz21&ep=v1_stickers_related&rid=giphy.gif&ct=s"
+                            alt="Cinque Terre" width="150" height="160" onclick="big7()">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="box-3">
+
+            <br><br><br>
+            <!-- <div class="levels"> -->
+            <!-- <div class="box-1"> -->
+            <input type="button" class="bb" onclick="show_prompt()" value="חידה">
+            <br><br><br>
+            <p class="play" onclick="setTimeout (end,8000);">שלב 1</p>
+            <!-- </div> -->
+            <!-- <div class="box-2"> -->
+            <p class="play" onclick="setTimeout (end,5500);">שלב 2</p>
+            <!-- </div> -->
+            <!-- <div class="box-3"> -->
+            <p class="play" onclick="setTimeout (end,4000);">שלב 3</p>
+
+        </div>
+    </div>
+
+
+
+    <script>
+
+        function big1() {
+            document.getElementById("secondary1").style.scale = "0%";
+        }
+
+        function big2() {
+            document.getElementById("secondary2").style.scale = "0%";
+        }
+
+        function big3() {
+            document.getElementById("secondary3").style.scale = "0%";
+        }
+
+        function big4() {
+            document.getElementById("secondary4").style.scale = "0%";
+        }
+
+        function big5() {
+            document.getElementById("secondary5").style.scale = "0%";
+        }
+
+        function big6() {
+            document.getElementById("secondary6").style.scale = "0%";
+        }
+
+        function big7() {
+            document.getElementById("secondary7").style.scale = "0%";
+        }
+
+
+
+
+        function end() {
+            alert("\nנגמר הזמן.👇💖 \n כדי להתחיל שוב, לחץ על השלב הרצוי");
+            // window.open('לוח_אוכל.html');
+        }
+
+
+        function sof() {
+            alert("סיימתם לשחק? נשמח לראות אתכם בפעם הבאה ❤️");
+        }
+
+
+        function remove() {
+
+            const s = document.getElementById('secondary6');
+
+            s.remove();
+        }
+
+
+        function show_prompt() {
+            var name = prompt("על איזה פריט לא ניתן ללחוץ?");
+
+            if (name != null && name != "" && name == "מברשת שיניים") {
+                alert("נכון!💯\n" + name + " כל הכבוד!");
+            }
+            else {
+                alert("התשובה: " + name + "   לא נכונה! \n\n נסה שוב!");
+            }
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

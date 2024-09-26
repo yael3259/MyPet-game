@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+
+    <div id="image-container">
+        <img id="p1" src="תמונות/צילום מסך 2023-07-19 191447.png" alt="Cinque Terre" width="220" height="220">
+        
+        <img class="secondary" src="https://cdn3d.iconscout.com/3d/premium/thumb/pancake-5774679-4848476.png?f=webp" alt="Cinque Terre" width="200" height="210">
+        <img class="secondary" src="https://www.icegif.com/wp-content/uploads/icegif-971.gif" alt="Cinque Terre" width="150" height="160">
+        <img class="secondary" src="https://static.vecteezy.com/system/resources/previews/020/032/996/original/3d-icon-of-dog-bone-free-png.png" alt="Cinque Terre" width="180" height="190">
+        <img class="secondary" src="https://cdn3d.iconscout.com/3d/premium/thumb/milk-carton-5261840-4396910.png?f=webp" alt="Cinque Terre" width="150" height="160">
+        <img class="secondary" src="https://thumbs.gfycat.com/ImpishPettyEel-size_restricted.gif" alt="Cinque Terre" width="150" height="160">
+      </div>
+
+
+
+
+<script>
+
+const p1 = document.getElementById('p1');
+const secondaryImages = document.querySelectorAll('.secondary');
+
+p1.ondragenter = (event) => {
+const draggedImage = event.relatedTarget;
+
+  if (draggedImage.classList.contains('secondary')) {
+    draggedImage.remove();
+  }
+};
+ 
+
+function remove(){
+
+  const p = document.getElementById('p1');
+const s = document.getElementById('secondary1');
+if (s.contains(p))
+
+    s.remove();
+  }
+ 
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

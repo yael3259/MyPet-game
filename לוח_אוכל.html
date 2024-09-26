@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אוכל</title>
+    <style>
+        body {
+            background-image: url('https://media.istockphoto.com/id/1211832865/vector/cartoon-wooden-kitchen-table-with-tablecloth-at-cuisine-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=1iwpCvyJEQe3N59Cj3-FlUNkRmKF9nh1wgr1E8G_Oa4=');
+            direction: rtl;
+            background-size: 80%;
+            background-repeat: no-repeat;
+            background-color: rgba(227, 15, 82, 0.519);
+        }
+
+        .tmuna {
+            margin-left: 10%;
+            padding-right: 8%;
+            margin-bottom: 0%;
+            margin-top: 8%;
+        }
+
+        #p1 {
+            display: block;
+            margin-right: 50%;
+            margin-left: 120%;
+            margin-top: -5%;
+            margin-bottom: -5%;
+        }
+
+        .secondary {
+            display: block;
+            margin-right: 50%;
+            margin-left: 50%;
+            margin-top: 12%;
+        }
+
+        div.txt {
+            color: rgb(240, 45, 139);
+            font-size: 50px;
+            /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom: 0%;
+        }
+
+        .main-containerr {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding-left: 25%;
+            padding-right: 12%;
+        }
+
+        .main-containerr .box-1 {
+            flex: 1;
+            margin: -25px;
+            margin-left: 5px;
+        }
+
+        .main-containerr .box-2 {
+            flex: 1;
+        }
+
+        .main-containerr .box-3 {
+            flex: 1;
+        }
+
+        .main-containerr .box-4 {
+            flex: 1;
+        }
+
+        .main-containerr .box-5 {
+            flex: 1;
+        }
+
+        .main-containerr .box-6 {
+            flex: 1;
+            /* padding-left: 20px; */
+            /* visibility: hidden; */
+        }
+
+        .cont {
+            display: flex;
+            margin-top: -5%;
+        }
+
+        .cont .box-1 {
+            flex: 1;
+        }
+
+        .cont .box-2 {
+            flex: 1;
+        }
+
+        .cont .box-3 {
+            flex: 1;
+        }
+
+        .levels {
+            display: flex;
+        }
+
+        .levels .box-1 {
+            flex: 1;
+        }
+
+        .levels .box-2 {
+            flex: 1;
+        }
+
+        .levels .box-3 {
+            flex: 1;
+        }
+
+        button {
+            text-align: center;
+        }
+
+        .play {
+            background: linear-gradient(to bottom, rgb(237, 248, 89) 5%, rgb(253, 170, 170) 100%);
+            background-color: rgb(216, 57, 251);
+            border-radius: 9px;
+            border: 2.5px solid #fae48c;
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            color: #ae0303;
+            font-family: Arial;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 17px 16px;
+            text-decoration: none;
+            margin-right: 90px;
+            margin-left: 15%;
+            margin-top: 3%;
+        }
+
+        .play:hover {
+            background: linear-gradient(to bottom, rgb(179, 249, 130) 5%, #4dfb6a 100%);
+            background-color: #b7bcbe;
+            color: #e8160f;
+        }
+
+        .play:active {
+            position: relative;
+            top: 5px;
+        }
+
+        .pl {
+            text-align: center;
+            margin-right: 0%;
+            margin-left: 82%;
+            margin-top: 0%;
+            color: #ffffff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .yy {
+            background-color: rgba(227, 15, 82, 0);
+            /* visibility:hidden; */
+            color: rgba(227, 15, 82, 0.042);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="yy" onmouseover="sof()">
+        <p>exit<br>exit<br>exit<br>exit</p>
+    </div>
+
+    <div class="cont">
+
+        <div class="txt">
+            <p style="position: absolute; top: 15px; left: 26%"><b>האכילו את הקואלה</b></p>
+        </div>
+
+        <div class="box-1">
+            <div class="tmuna">
+                <a href="לוח_אוכל.html">
+                    <img src="תמונות/eat1.gif" alt="Cinque Terre" width="220" height="200" />
+                </a>
+            </div>
+            <div class="tmuna">
+                <a href="לוח_משחק.html">
+                    <img src="תמונות/run2.webp" alt="Cinque Terre" width="220" height="200" />
+                </a>
+            </div>
+            <div class="tmuna">
+                <a href="לוח_נקיון.html">
+                    <img src="תמונות/clean3.gif" alt="Cinque Terre" width="220" height="200" />
+                </a>
+            </div>
+        </div>
+
+        <div id="image-container">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <img id="p1" src="תמונות/צילום מסך 2023-07-19 192824.png" alt="Cinque Terre" width="280" height="280">
+            <br><br><br>
+
+            <div class="box-2">
+                <div class="main-containerr">
+
+                    <div class="box-1">
+                        <img id="secondary1"
+                            src="https://cdn3d.iconscout.com/3d/premium/thumb/pancake-5774679-4848476.png?f=webp"
+                            alt="Cinque Terre" width="200" height="210" onclick="big1()">
+                    </div>
+
+                    <div class="box-2">
+                        <img id="secondary2" src="https://www.icegif.com/wp-content/uploads/icegif-971.gif"
+                            alt="Cinque Terre" width="150" height="160" onclick="big2()">
+                    </div>
+
+                    <div class="box-3">
+                        <img id="secondary3"
+                            src="https://static.vecteezy.com/system/resources/previews/020/032/996/original/3d-icon-of-dog-bone-free-png.png"
+                            alt="Cinque Terre" width="180" height="190" onclick="big3()">
+                    </div>
+
+                    <div class="box-4">
+                        <img id="secondary4"
+                            src="https://cdn3d.iconscout.com/3d/premium/thumb/milk-carton-5261840-4396910.png?f=webp"
+                            alt="Cinque Terre" width="150" height="160" onclick="big4()">
+                    </div>
+
+                    <!-- <div class="box-5">
+                        <img id="secondary5" src="תמונות/donat.gif"
+                            alt="Cinque Terre" width="150" height="160" onclick="big5()">
+                    </div> -->
+
+                    <div class="box-6">
+                        <img id="secondary6" src="תמונות/donat.gif" 
+                            alt="Cinque Terre" width="150" height="160" onclick="big6()">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-3">
+            <br><br><br>
+            <p class="play" onclick="setTimeout (end,8000);">שלב 1</p>
+            <p class="play" onclick="setTimeout (end,5500);">שלב 2</p>
+            <p class="play" onclick="setTimeout (end,4000);">שלב 3</p>
+        </div>
+
+    </div>
+
+    <script>
+        function big1() {
+            document.getElementById("secondary1").style.scale = "0%";
+        }
+
+        function big2() {
+            document.getElementById("secondary2").style.scale = "0%";
+        }
+
+        function big3() {
+            document.getElementById("secondary3").style.scale = "0%";
+        }
+
+        function big4() {
+            document.getElementById("secondary4").style.scale = "0%";
+        }
+
+        function big5() {
+            document.getElementById("secondary5").style.scale = "0%";
+        }
+
+        function big6() {
+            document.getElementById("secondary6").style.scale = "0%";
+        }
+
+        function end() {
+            alert("\nנגמר הזמן.👇💖 \n כדי להתחיל שוב, לחץ על השלב הרצוי");
+            // window.open('לוח_אוכל.html');
+        }
+
+        function sof() {
+            alert("סיימתם לשחק? נשמח לראות אתכם בפעם הבאה ❤️");
+        }
+    </script>
+</body>
+
+</html>
